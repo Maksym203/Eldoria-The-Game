@@ -338,13 +338,13 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: E:\Eldoria-The-Game\Eldoria\My project
+  m_LastProjectPath: E:\Eldoria-The-Game\Eldoria
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: cabd0000
-    m_LastClickedID: 48586
+    m_SelectedIDs: c8e00000
+    m_LastClickedID: 57544
     m_ExpandedIDs: 0000000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -520,9 +520,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 32bd0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: b8e9ffff
+      m_ExpandedIDs: 7e5fffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1058,7 +1058,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: -4.8757877, y: 0.73762727, z: -34.199726}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1106,11 +1106,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
-    m_Value: {x: -0.0692424, y: 0.019733101, z: -0.0013804095, w: -0.99742705}
+    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
     m_Target: 10
     speed: 2
-    m_Value: 13.660169
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
