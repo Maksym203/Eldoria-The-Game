@@ -1,0 +1,38 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class StoryManager : MonoBehaviour
+{
+    public static StoryManager instance;
+
+    // Dictionary to store dialogue progress for each NPC
+    private Dictionary<string, int> npcDialogueStates = new Dictionary<string, int>();
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject); // Optional: if you want this across scenes
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    // Get the current dialogue index (0 = first dialogue, etc.)
+    public int GetDialogueState(string npcID)
+    {
+        return npcDialogueStates.ContainsKey(npcID) ? npcDialogueStates[npcID] : 0;
+    }
+
+    // Advance to the next dialogue state for an NPC
+    public void AdvanceDialogueState(string npcID)
+    {
+        if (!npcDialogueStates.ContainsKey(npcID))
+            npcDialogueStates[npcID] = 1;
+        else
+            npcDialogueStates[npcID]++;
+    }
+}
