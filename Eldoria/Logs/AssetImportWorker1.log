@@ -15,7 +15,7 @@ C:/Users/pauga/Documents/GitHub/Eldoria-The-Game/Eldoria
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56282
+58793
 -job-worker-count
 15
 -background-job-worker-count
@@ -59,14 +59,14 @@ C:/Users/pauga/Documents/GitHub/Eldoria-The-Game/Eldoria
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18328]  Target information:
+Player connection [3016]  Target information:
 
-Player connection [18328]  * "[IP] 192.168.1.52 [Port] 0 [Flags] 2 [Guid] 166015182 [EditorId] 166015182 [Version] 1048832 [Id] WindowsEditor(7,PcPau) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [3016]  * "[IP] 192.168.1.52 [Port] 0 [Flags] 2 [Guid] 848752448 [EditorId] 848752448 [Version] 1048832 [Id] WindowsEditor(7,PcPau) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [18328]  * "[IP] 10.102.37.150 [Port] 0 [Flags] 2 [Guid] 166015182 [EditorId] 166015182 [Version] 1048832 [Id] WindowsEditor(7,PcPau) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [3016]  * "[IP] 10.102.37.150 [Port] 0 [Flags] 2 [Guid] 848752448 [EditorId] 848752448 [Version] 1048832 [Id] WindowsEditor(7,PcPau) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [18328] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [18328] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3016] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3016] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 15
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -78,7 +78,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.47f1 (2ad1ed33fd3b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.47f1/Editor/Data/Resources/UnitySubsystems
@@ -94,33 +94,33 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.47f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.47f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.47f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.47f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003043 seconds.
+Registered in 0.003459 seconds.
 - Loaded All Assemblies, in  0.250 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.208 seconds
-Domain Reload Profiling: 456ms
-	BeginReloadAssembly (85ms)
+- Finished resetting the current domain, in  0.207 seconds
+Domain Reload Profiling: 455ms
+	BeginReloadAssembly (80ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (99ms)
-		LoadAssemblies (83ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (78ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (97ms)
-			TypeCache.Refresh (95ms)
-				TypeCache.ScanAssembly (87ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (89ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
 	FinalizeReload (208ms)
@@ -128,11 +128,11 @@ Domain Reload Profiling: 456ms
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (187ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
+			InitializePlatformSupportModulesInManaged (14ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (100ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -141,60 +141,449 @@ Domain Reload Profiling: 456ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.497 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.523 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.475 seconds
-Domain Reload Profiling: 969ms
-	BeginReloadAssembly (117ms)
+- Finished resetting the current domain, in  0.481 seconds
+Domain Reload Profiling: 1001ms
+	BeginReloadAssembly (116ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
+		CreateAndSetChildDomain (27ms)
 	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (318ms)
-		LoadAssemblies (237ms)
+	LoadAllAssembliesAndSetupDomain (346ms)
+		LoadAssemblies (254ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (148ms)
-			TypeCache.Refresh (109ms)
-				TypeCache.ScanAssembly (100ms)
-			BuildScriptInfoCaches (30ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (476ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (103ms)
+			BuildScriptInfoCaches (31ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (482ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (375ms)
+		SetupLoadedEditorAssemblies (376ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (237ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5993 unused Assets / (4.2 MB). Loaded Objects now: 6699.
-Memory consumption went from 169.7 MB to 165.4 MB.
-Total: 11.935200 ms (FindLiveObjects: 1.199800 ms CreateObjectMapping: 0.812400 ms MarkObjects: 6.327500 ms  DeleteObjects: 3.591700 ms)
+Unloading 213 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5995 unused Assets / (4.5 MB). Loaded Objects now: 6702.
+Memory consumption went from 170.6 MB to 166.1 MB.
+Total: 14.351700 ms (FindLiveObjects: 1.125300 ms CreateObjectMapping: 1.421000 ms MarkObjects: 7.642800 ms  DeleteObjects: 4.159300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20409.789546 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(b7f47ed11979db24f98a2bca42a9cc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(b7f47ed11979db24f98a2bca42a9cc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The tree Bush_2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree Bush_1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree Bush_3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
- -> (artifact id: '0ac997d7ab57406a7847471f26da51c5') in 0.0713848 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+  Time since last request: 103220.568492 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Trees/Ash.png
+  artifactKey: Guid(d3b175a0dafd08c47be17d782527c04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Trees/Ash.png using Guid(d3b175a0dafd08c47be17d782527c04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cc35eed89ef216144edbc4446607d9c') in 0.0511598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Trees/AshYellow.png
+  artifactKey: Guid(dbcc2d4aa921ec6418308f683342a85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Trees/AshYellow.png using Guid(dbcc2d4aa921ec6418308f683342a85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f76ae27232f1911aae95c932cecf264') in 0.0037475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.173530 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Trees/BushOrange.png
+  artifactKey: Guid(d7d4dcda54d1364488cbd693b2cbceff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Trees/BushOrange.png using Guid(d7d4dcda54d1364488cbd693b2cbceff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a3065e87493be01f5ddc728eef2e236') in 0.0094786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Trees/BushWinter.png
+  artifactKey: Guid(826eb07eb360fe243815fb2353a30a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Trees/BushWinter.png using Guid(826eb07eb360fe243815fb2353a30a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b2fa249147918aff0b9b8a4548d5176') in 0.0038828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VikingAsset/Textures/colors.png
+  artifactKey: Guid(5cc7c03397dd6e04aa7b3688aefe5a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VikingAsset/Textures/colors.png using Guid(5cc7c03397dd6e04aa7b3688aefe5a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c19bcb884695c37b322334e0c94c5576') in 0.0055612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Plants/FlowerRed.png
+  artifactKey: Guid(c748fca4fbf9de547ad08e615b74216b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Plants/FlowerRed.png using Guid(c748fca4fbf9de547ad08e615b74216b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfd9931ca22513cc1536c8bc85ed09fb') in 0.004015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025842 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Plants/GrassYellow.png
+  artifactKey: Guid(528415a51a4d2e5469c347df01727302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Plants/GrassYellow.png using Guid(528415a51a4d2e5469c347df01727302) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cfeab97449adf0b751f7dbf1dcfbc38') in 0.0036261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Plants/MushroomRed.png
+  artifactKey: Guid(42a592950b547ac4b9be090b246d9fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Plants/MushroomRed.png using Guid(42a592950b547ac4b9be090b246d9fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9bb2a899c8f1cae443599303abda4f2') in 0.003791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Plants/MushroomYellow.png
+  artifactKey: Guid(90a9a6452b1031d40a6bc730e4807295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Plants/MushroomYellow.png using Guid(90a9a6452b1031d40a6bc730e4807295) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa5cc91b6b85b5fbddc0a240055a147a') in 0.0037788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Trees/OakBrown.png
+  artifactKey: Guid(589b839c5788c4f43a3a6688dd9c926a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Trees/OakBrown.png using Guid(589b839c5788c4f43a3a6688dd9c926a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8710f36dde87c3bd7943d29f436970d6') in 0.0041765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038430 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Trees/Poplar.png
+  artifactKey: Guid(7959f993eb6193e4baad7e5122af6de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Trees/Poplar.png using Guid(7959f993eb6193e4baad7e5122af6de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83fc8f8de4eb6073214c832d41076a21') in 0.00414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Trees/PoplarSnow.png
+  artifactKey: Guid(035b7e62b7589514d968a6834e90cb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Trees/PoplarSnow.png using Guid(035b7e62b7589514d968a6834e90cb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd6fffb2bd1510c0b5011ee4dac894bc') in 0.0113339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Rocks/Rocks.png
+  artifactKey: Guid(695ccb83e828b2447a55fe57873a36d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Rocks/Rocks.png using Guid(695ccb83e828b2447a55fe57873a36d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e42e5c9e26a7190f6c8fe561111affa') in 0.00373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Holy Assets Games/3D The Blacksmith's House/Textures/Smithy_Base_color_2K.tif
+  artifactKey: Guid(b647b1f8c4658be4daee6063f95939bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holy Assets Games/3D The Blacksmith's House/Textures/Smithy_Base_color_2K.tif using Guid(b647b1f8c4658be4daee6063f95939bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4830da794b89c06aad92f846912542d3') in 0.0054199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Holy Assets Games/3D The Blacksmith's House/Textures/Smithy_Normal_OpenGL_2K.tif
+  artifactKey: Guid(9c8c5c1215da5fc4f945dc9179668319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holy Assets Games/3D The Blacksmith's House/Textures/Smithy_Normal_OpenGL_2K.tif using Guid(9c8c5c1215da5fc4f945dc9179668319) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ebf9dad83803399d2df618859bebf4c') in 0.0269144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Holy Assets Games/3D The Blacksmith's House/Textures/Smithy_AO_2K.tif
+  artifactKey: Guid(0e6dbe4bdb219ed43b836c2ff8e3e5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holy Assets Games/3D The Blacksmith's House/Textures/Smithy_AO_2K.tif using Guid(0e6dbe4bdb219ed43b836c2ff8e3e5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd9c50fe8f3e0e5f342c61e6e14e9c67') in 0.0087891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Trees/SpruceWinter.png
+  artifactKey: Guid(56942443661d71f46b92f38be3bab3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Trees/SpruceWinter.png using Guid(56942443661d71f46b92f38be3bab3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f3bdbafa8e113e22ad065a75c90a12c') in 0.0040452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Trees/SpruceNeedlesWinter.png
+  artifactKey: Guid(c98b2e3b05462d4499daf6e418ad9589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Textures/Trees/SpruceNeedlesWinter.png using Guid(c98b2e3b05462d4499daf6e418ad9589) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3452ccf80f513206090dd76747563d09') in 0.0032201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 569.755850 seconds.
+  path: Assets/LowPoly Environment Pack/Demo/NewLayer 1.terrainlayer
+  artifactKey: Guid(fb751419b093d3444a3a37d876d9a7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack/Demo/NewLayer 1.terrainlayer using Guid(fb751419b093d3444a3a37d876d9a7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c71c10b57f3dca93e3bb0e48b97cf9b3') in 0.0141786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.088877 seconds.
+  path: Assets/LowPoly Environment Pack/Prefabs/Grass_1.prefab
+  artifactKey: Guid(b2199aadf1bb8c4449f3edfc84a39f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack/Prefabs/Grass_1.prefab using Guid(b2199aadf1bb8c4449f3edfc84a39f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fbe8d0c9bcaef31a6339209f95e1261') in 0.2734281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/LowPoly Environment Pack/Prefabs/Grass_2.prefab
+  artifactKey: Guid(c04be9f92ebf58b46b2204ac3aaa8785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack/Prefabs/Grass_2.prefab using Guid(c04be9f92ebf58b46b2204ac3aaa8785) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61bf223e2fbe81d47e93c75d40f5be28') in 0.0246067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LowPoly Environment Pack/Prefabs/Plant_1.prefab
+  artifactKey: Guid(48ad265f338caaf4da3a864816595b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack/Prefabs/Plant_1.prefab using Guid(48ad265f338caaf4da3a864816595b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87f86f306120f54f36b47f472e1d2248') in 0.0099462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPoly Environment Pack/Prefabs/Rock_1.prefab
+  artifactKey: Guid(74442f407a24ac84f95f08a83b1bb617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack/Prefabs/Rock_1.prefab using Guid(74442f407a24ac84f95f08a83b1bb617) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '896a46a8b08d20d1a0265606d7367424') in 0.0089706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPoly Environment Pack/Prefabs/Rock_2.prefab
+  artifactKey: Guid(4983f395b2610de4e9f688a87bbd9af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack/Prefabs/Rock_2.prefab using Guid(4983f395b2610de4e9f688a87bbd9af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df28a69eb909cb1a3320ff28bb508461') in 0.0086082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPoly Environment Pack/Prefabs/Plant_3.prefab
+  artifactKey: Guid(01bdef6597b249b44a9530ab656246fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack/Prefabs/Plant_3.prefab using Guid(01bdef6597b249b44a9530ab656246fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b181f4afc72ae11aa718114e202ae5e0') in 0.0073538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPoly Environment Pack/Prefabs/Mounting_2.prefab
+  artifactKey: Guid(8732d563a511d834e823ac895b8a4004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack/Prefabs/Mounting_2.prefab using Guid(8732d563a511d834e823ac895b8a4004) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05f0aad4afb3df167ac56267f12ff960') in 0.0091742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPoly Environment Pack/Prefabs/Rock_4.prefab
+  artifactKey: Guid(836ca07fc69b4184ca14265c7d24030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack/Prefabs/Rock_4.prefab using Guid(836ca07fc69b4184ca14265c7d24030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ecabb7b93e9e64f95eeaacc4a74c8a0') in 0.0083706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPoly Environment Pack/Prefabs/Log_2.prefab
+  artifactKey: Guid(7c1b7eb3905d5694688d9bb9fe2c0d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack/Prefabs/Log_2.prefab using Guid(7c1b7eb3905d5694688d9bb9fe2c0d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b68c8e91ff1818ff51333fd020d3ba3c') in 0.0088684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPoly Environment Pack/Prefabs/Plant_5.prefab
+  artifactKey: Guid(fd4804b84d34a784ea6831ede116af4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack/Prefabs/Plant_5.prefab using Guid(fd4804b84d34a784ea6831ede116af4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f299ff70bb4fd53cc1db4bebe748432') in 0.0084713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/LowPoly Environment Pack/Prefabs/Terrain_2.prefab
+  artifactKey: Guid(ef140beec582a5a46a6362fcfc31784d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack/Prefabs/Terrain_2.prefab using Guid(ef140beec582a5a46a6362fcfc31784d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0711f99a3e2ed4fdef1e81d1d554d9f4') in 0.0080183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPoly Environment Pack/Prefabs/Rock_6.prefab
+  artifactKey: Guid(c53e680fdc8fae04d91b4ce9e548d2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack/Prefabs/Rock_6.prefab using Guid(c53e680fdc8fae04d91b4ce9e548d2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7229cc6a7543713d0031d11ba3d2f16') in 0.0080413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPoly Environment Pack/Prefabs/Stone_1.prefab
+  artifactKey: Guid(0f9577b4dda6cc546abea4737be5a392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack/Prefabs/Stone_1.prefab using Guid(0f9577b4dda6cc546abea4737be5a392) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd874383778408dd95540a5b7d6e6fe66') in 0.0084216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPoly Environment Pack/Prefabs/Rock_3.prefab
+  artifactKey: Guid(da41fd2967a439d409358c2214a5409e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack/Prefabs/Rock_3.prefab using Guid(da41fd2967a439d409358c2214a5409e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f9b35c4125da96c3dca5eb523f1ef48') in 0.0085703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.920356 seconds.
+  path: Assets/LowPoly Environment Pack/Prefabs/Tree_2.prefab
+  artifactKey: Guid(dc00aab85b301f242896a77c4b442ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack/Prefabs/Tree_2.prefab using Guid(dc00aab85b301f242896a77c4b442ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb609f5bdeea24f0e41a535b1aea043e') in 0.0097331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowPoly Environment Pack/Prefabs/Tree_3.prefab
+  artifactKey: Guid(fa6105287f77b1240a0017f7d23434c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack/Prefabs/Tree_3.prefab using Guid(fa6105287f77b1240a0017f7d23434c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd27022392bfd84c27a4d4f04fd8c0c60') in 0.0089968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.311168 seconds.
+  path: Assets/LowPoly Environment Pack/Prefabs/Tree_2.prefab
+  artifactKey: Guid(dc00aab85b301f242896a77c4b442ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack/Prefabs/Tree_2.prefab using Guid(dc00aab85b301f242896a77c4b442ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2087e142d9bf6290c6f3c4248dafdea') in 0.0125337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPoly Environment Pack/Prefabs/Tree_3.prefab
+  artifactKey: Guid(fa6105287f77b1240a0017f7d23434c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Environment Pack/Prefabs/Tree_3.prefab using Guid(fa6105287f77b1240a0017f7d23434c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc01db7da29da54ce01224e71576c46d') in 0.0096802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.897591 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Meshes/Trees/Ash/AshClutter_002.fbx
+  artifactKey: Guid(4964fb3b7dc72a54db6475016fbec450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Meshes/Trees/Ash/AshClutter_002.fbx using Guid(4964fb3b7dc72a54db6475016fbec450) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e352b144faf08bcd87fe200715191bd0') in 0.0731538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Meshes/Trees/Ash/AshDead.fbx
+  artifactKey: Guid(c4bd6d745875426488aa811f5df322a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Meshes/Trees/Ash/AshDead.fbx using Guid(c4bd6d745875426488aa811f5df322a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f609dd92cf6a5cc24b148ae29ad576cc') in 0.0325839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.777591 seconds.
+  path: Assets/HeneGames/Dialogue System/Prefabs/Dialogue 3D.prefab
+  artifactKey: Guid(cc0b3ff4467379548b7df5f7e83dd6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Prefabs/Dialogue 3D.prefab using Guid(cc0b3ff4467379548b7df5f7e83dd6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '052bf6a8994db2277102eca44a6f0be0') in 0.0026202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.265041 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Meshes/Foilage/Grass/Grass_010.fbx
+  artifactKey: Guid(64f6b014b6a06c44eb912584f647433f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Meshes/Foilage/Grass/Grass_010.fbx using Guid(64f6b014b6a06c44eb912584f647433f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98b50272aa0cfad10fa3c3f20f298fda') in 0.0075964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Meshes/Foilage/Grass/Grass_012.fbx
+  artifactKey: Guid(bbc79a1eecab7b84aa9413d03ada73a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Meshes/Foilage/Grass/Grass_012.fbx using Guid(bbc79a1eecab7b84aa9413d03ada73a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5590f036e690687739522b4f5273623') in 0.0074369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 260.070126 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Prefabs/Foilage/Plants/Plant.prefab
+  artifactKey: Guid(b304b22d1583ce1468ccdc660159bc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Prefabs/Foilage/Plants/Plant.prefab using Guid(b304b22d1583ce1468ccdc660159bc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80a138f405d9139d433845dbb203318e') in 0.0077739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Prefabs/Foilage/Plants/Plant_003.prefab
+  artifactKey: Guid(87c56f7bf213b1d4eb030fc84823d811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Prefabs/Foilage/Plants/Plant_003.prefab using Guid(87c56f7bf213b1d4eb030fc84823d811) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd2cfdadf4164c4700a13db3ee7402f4') in 0.0195867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.245854 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Meshes/Trees/Birch/BirchStump.fbx
+  artifactKey: Guid(14fea2ce51140864eb82f8e30c82cf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Meshes/Trees/Birch/BirchStump.fbx using Guid(14fea2ce51140864eb82f8e30c82cf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c28bf6ad92865aa8e1e522541b876527') in 0.0070341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Prefabs/Trees/Bush/BushStump.prefab
+  artifactKey: Guid(f79bf6d7cd8d5164d867549a13646b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Prefabs/Trees/Bush/BushStump.prefab using Guid(f79bf6d7cd8d5164d867549a13646b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9042fb6fd95614dbea256fb6f213d805') in 0.0079851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Meshes/Trees/Oak/OakStump_003.fbx
+  artifactKey: Guid(4327dc8692e3e7846b808cf8adbc2d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Meshes/Trees/Oak/OakStump_003.fbx using Guid(4327dc8692e3e7846b808cf8adbc2d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ff576b5e7da2a6f6bcd335d9b913475') in 0.0075405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.872041 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Prefabs/Foilage/Plants/Plant_004.prefab
+  artifactKey: Guid(78251e7594dd12b498c4f31288e4b332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Prefabs/Foilage/Plants/Plant_004.prefab using Guid(78251e7594dd12b498c4f31288e4b332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24ecd0bb14e42f5af60fa1d670de5627') in 0.0056014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.093218 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Meshes/Foilage/Plants/Plant_005.fbx
+  artifactKey: Guid(96595612997f46041af6dbe304ed079c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Meshes/Foilage/Plants/Plant_005.fbx using Guid(96595612997f46041af6dbe304ed079c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '686bef8d8bbec9d9b02fe132371c948c') in 0.0084397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.246665 seconds.
+  path: Assets/Happy Little Trees - Free nature pack by Nebula/Prefabs/Foilage/Plants/Plant_006.prefab
+  artifactKey: Guid(17aa0fb53545bd244975203542d39ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Happy Little Trees - Free nature pack by Nebula/Prefabs/Foilage/Plants/Plant_006.prefab using Guid(17aa0fb53545bd244975203542d39ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dbe101bb1284774c00a6bf38d5842b9') in 0.0057595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
