@@ -31,21 +31,8 @@ public class StoryManager : MonoBehaviour
     public void AdvanceDialogueState(string npcID)
     {
         if (!npcDialogueStates.ContainsKey(npcID))
-        {
             npcDialogueStates[npcID] = 1;
-        }
         else
-        {
             npcDialogueStates[npcID]++;
-        }
-    }
-
-    public bool DialogueStateEquals(string npcID, string npcID2, int targetState)
-    {
-        if (npcID == npcID2)
-        {
-            return GetDialogueState(npcID2) == targetState;
-        }
-        else return false;
     }
 }

@@ -179,7 +179,7 @@ namespace HeneGames.DialogueSystem
             }
 
             //Reset sentence index
-            currentSentence = StoryManager.instance.GetDialogueState(npcID);
+            currentSentence = 0;
 
             //Show first sentence in dialogue UI
             ShowCurrentSentence();
@@ -212,31 +212,7 @@ namespace HeneGames.DialogueSystem
             nextSentenceDialogueEvent.Invoke();
 
             //If last sentence stop dialogue and return
-            if (StoryManager.instance.DialogueStateEquals(npcID, "Test1", 1))
-            {
-                StopDialogue();
-
-                lastSentence = true;
-
-                currentSentence--;
-
-                endDialogueEvent.Invoke();
-
-                return;
-            }
-            else if (StoryManager.instance.DialogueStateEquals(npcID, "Test1", 5))
-            {
-                StopDialogue();
-
-                StoryManager.instance.AdvanceDialogueState(npcID);
-
-                lastSentence = true;
-
-                endDialogueEvent.Invoke();
-
-                return;
-            }
-            else if (currentSentence > sentences.Count - 1)
+            if (currentSentence > sentences.Count - 1)
             {
                 StopDialogue();
 
@@ -249,8 +225,6 @@ namespace HeneGames.DialogueSystem
 
             //If not last sentence continue...
             lastSentence = false;
-
-            StoryManager.instance.AdvanceDialogueState(npcID);
 
             //Play dialogue sound
             PlaySound(sentences[currentSentence].sentenceSound);
