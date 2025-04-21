@@ -36,7 +36,7 @@ namespace HeneGames.DialogueSystem
         private void Update()
         {
             //Timer
-            if(coolDownTimer > 0f)
+            if (coolDownTimer > 0f)
             {
                 coolDownTimer -= Time.deltaTime;
             }
@@ -173,13 +173,14 @@ namespace HeneGames.DialogueSystem
         public void StartDialogue()
         {
             //Start event
-            if(dialogueTrigger != null)
+            if (dialogueTrigger != null)
             {
                 dialogueTrigger.startDialogueEvent.Invoke();
             }
 
             //Reset sentence index
             currentSentence = 0;
+            currentSentence = StoryManager.instance.GetDialogueState(npcID);
 
             //Show first sentence in dialogue UI
             ShowCurrentSentence();
@@ -212,19 +213,45 @@ namespace HeneGames.DialogueSystem
             nextSentenceDialogueEvent.Invoke();
 
             //If last sentence stop dialogue and return
-            if (currentSentence > sentences.Count - 1)
-            {
-                StopDialogue();
+                if (StoryManager.instance.DialogueStateEquals(npcID, "Test1", 1))
+                {
+                    StopDialogue();
 
-                lastSentence = true;
+                    lastSentence = true;
 
-                endDialogueEvent.Invoke();
+                    currentSentence--;
 
-                return;
-            }
+                    endDialogueEvent.Invoke();
+
+                    return;
+                }
+                else if (StoryManager.instance.DialogueStateEquals(npcID, "Test1", 5))
+                {
+                    StopDialogue();
+
+                    StoryManager.instance.AdvanceDialogueState(npcID);
+
+                    lastSentence = true;
+
+                    endDialogueEvent.Invoke();
+
+                    return;
+                }
+                else if (currentSentence > sentences.Count - 1)
+                {
+                    StopDialogue();
+
+                    lastSentence = true;
+
+                    endDialogueEvent.Invoke();
+
+                    return;
+                }
 
             //If not last sentence continue...
             lastSentence = false;
+
+            StoryManager.instance.AdvanceDialogueState(npcID);
 
             //Play dialogue sound
             PlaySound(sentences[currentSentence].sentenceSound);
@@ -248,7 +275,7 @@ namespace HeneGames.DialogueSystem
             DialogueUI.instance.ClearText();
 
             //Stop audiosource so that the speaker's voice does not play in the background
-            if(audioSource != null)
+            if (audioSource != null)
             {
                 audioSource.Stop();
             }
@@ -296,7 +323,7 @@ namespace HeneGames.DialogueSystem
 
         public int CurrentSentenceLenght()
         {
-            if(sentences.Count <= 0)
+            if (sentences.Count <= 0)
                 return 0;
 
             return sentences[currentSentence].sentence.Length;
