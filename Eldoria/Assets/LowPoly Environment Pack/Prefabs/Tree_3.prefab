@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33862529069753526}
   - component: {fileID: 23005653954299074}
   - component: {fileID: 2446739260950030547}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Leaves_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 4345878849055200}
   - component: {fileID: -8041237650137670272}
   - component: {fileID: 1631249256735034654}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Tree_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 33674980657963814}
   - component: {fileID: 23084094499193252}
   - component: {fileID: 3181755709378979426}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Leaves_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 33607138604387714}
   - component: {fileID: 23769861151005894}
   - component: {fileID: 7224646653643345934}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Leaves_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -437,7 +437,7 @@ GameObject:
   - component: {fileID: 33591743523650964}
   - component: {fileID: 23968443958065590}
   - component: {fileID: 1398961820266818947}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Leaves_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -545,7 +545,7 @@ GameObject:
   - component: {fileID: 33937757552896668}
   - component: {fileID: 23962305470541650}
   - component: {fileID: 1532837149772984783}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Leaves_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -653,7 +653,7 @@ GameObject:
   - component: {fileID: 33303436672164488}
   - component: {fileID: 23860695082177804}
   - component: {fileID: 4624681672603987563}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Leaves_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -761,7 +761,7 @@ GameObject:
   - component: {fileID: 33633330959154196}
   - component: {fileID: 23439739506746048}
   - component: {fileID: 7578363722772102804}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Tree_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -866,7 +866,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4163324227597750}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Leaves
   m_TagString: Untagged
   m_Icon: {fileID: 0}

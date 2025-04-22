@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4404065739864745029}
   - component: {fileID: 1944030278423662735}
   - component: {fileID: 7790638704088263907}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Ash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
