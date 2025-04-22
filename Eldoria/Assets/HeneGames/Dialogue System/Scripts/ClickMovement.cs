@@ -13,6 +13,7 @@ namespace HeneGames.DialogueSystem
         private void Start()
         {
             nav = GetComponent<NavMeshAgent>();
+            nav.speed = 10f;
         }
 
         private void Update()
