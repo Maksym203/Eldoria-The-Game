@@ -17,12 +17,9 @@ public class CameraObstructionHandler : MonoBehaviour
         float distance = Vector3.Distance(player.position, transform.position);
 
         RaycastHit[] hits = Physics.RaycastAll(transform.position, direction, distance, obstructionMask);
-        //RaycastHit[] hits = Physics.RaycastAll(transform.position, direction, distance);
 
         foreach (RaycastHit hit in hits)
         {
-            Debug.Log("Hit object: " + hit.collider.name);
-
             Renderer rend = hit.collider.GetComponent<Renderer>();
             if (rend != null)
             {

@@ -30,7 +30,6 @@ public class StoryManager : MonoBehaviour
     // Advance to the next dialogue state for an NPC
     public void AdvanceDialogueState(string npcID)
     {
-        Debug.Log(npcID + GetDialogueState(npcID));
         if (!npcDialogueStates.ContainsKey(npcID))
         {
             npcDialogueStates[npcID] = 1;
