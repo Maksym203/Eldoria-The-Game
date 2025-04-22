@@ -212,8 +212,9 @@ namespace HeneGames.DialogueSystem
 
             nextSentenceDialogueEvent.Invoke();
 
-            //If last sentence stop dialogue and return
-                if (StoryManager.instance.DialogueStateEquals(npcID, "Test1", 1))
+            int aux = 0;
+            aux = StoryManager.instance.CheckSpecificState(npcID);
+                if (aux == 1)
                 {
                     StopDialogue();
 
@@ -225,7 +226,7 @@ namespace HeneGames.DialogueSystem
 
                     return;
                 }
-                else if (StoryManager.instance.DialogueStateEquals(npcID, "Test1", 5))
+                else if (aux == 2)
                 {
                     StopDialogue();
 

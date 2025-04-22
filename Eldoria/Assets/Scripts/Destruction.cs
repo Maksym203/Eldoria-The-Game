@@ -6,9 +6,9 @@ public class SelfDestructOnSpecificCollision : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject == targetObject && StoryManager.instance.DialogueStateEquals("Test1", "Test1", 1))
+        if (collision.gameObject == targetObject && StoryManager.instance.DialogueStateEquals("Hest", "Hest", 1))
         {
-            StoryManager.instance.AdvanceDialogueState("Test1");
+            StoryManager.instance.AdvanceDialogueState("Hest");
             Destroy(gameObject);
         }
     }

@@ -30,6 +30,7 @@ public class StoryManager : MonoBehaviour
     // Advance to the next dialogue state for an NPC
     public void AdvanceDialogueState(string npcID)
     {
+        Debug.Log(npcID + GetDialogueState(npcID));
         if (!npcDialogueStates.ContainsKey(npcID))
         {
             npcDialogueStates[npcID] = 1;
@@ -47,5 +48,13 @@ public class StoryManager : MonoBehaviour
             return GetDialogueState(npcID2) == targetState;
         }
         else return false;
+    }
+
+    public int CheckSpecificState(string npcID)
+    {
+        if (npcID == "Hest" && GetDialogueState(npcID) == 1) return 1;
+        else if (npcID == "Hest" && GetDialogueState(npcID) == 5) return 2;
+        else if (npcID == "Interaction1" && GetDialogueState(npcID) == 3 && GetDialogueState("Hest") == 1) { AdvanceDialogueState("Hest"); return 0; }
+        else return 0;
     }
 }
