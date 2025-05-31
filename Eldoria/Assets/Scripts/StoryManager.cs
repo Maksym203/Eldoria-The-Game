@@ -56,4 +56,10 @@ public class StoryManager : MonoBehaviour
         else if (npcID == "Interaction1" && GetDialogueState(npcID) == 3 && GetDialogueState("Hest") == 1) { AdvanceDialogueState("Hest"); return 0; }
         else return 0;
     }
+
+    public int CheckSpecificStateResponse(string npcID, int index)
+    {
+        if (npcID == "Hest" && GetDialogueState(npcID) == 0 && index == 0) return 5;
+        else return 0;
+    }
 }

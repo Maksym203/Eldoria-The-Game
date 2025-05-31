@@ -43,6 +43,11 @@ namespace HeneGames.DialogueSystem
         [SerializeField] private GameObject dialogueWindow;
         [SerializeField] private GameObject interactionUI;
 
+        [Header("Response UI")]
+        [SerializeField] private GameObject responseContainer;
+        [SerializeField] private Button[] responseButtons;
+        [SerializeField] private TextMeshProUGUI[] responseTexts;
+
         [Header("Settings")]
         [SerializeField] private bool animateText = true;
 
@@ -66,10 +71,10 @@ namespace HeneGames.DialogueSystem
         public virtual void InputUpdate()
         {
             //Next dialogue input
-            if (Input.GetKeyDown(actionInput))
-            {
-                NextSentenceSoft();
-            }
+            //if (Input.GetKeyDown(actionInput))
+            //{
+            //    NextSentenceSoft();
+            //}
         }
 
         /// <summary>
@@ -124,12 +129,11 @@ namespace HeneGames.DialogueSystem
             currentDialogueManager.StartDialogue();
         }
 
-        public void ShowSentence(DialogueCharacter _dialogueCharacter, string _message)
+        public void ShowSentence(DialogueCharacter _dialogueCharacter, string _message, DialogueManager manager, PlayerResponse[] _responses = null)
         {
             StopAllCoroutines();
 
             dialogueWindow.SetActive(true);
-
             portrait.sprite = _dialogueCharacter.characterPhoto;
             nameText.text = _dialogueCharacter.characterName;
             currentMessage = _message;
@@ -142,11 +146,58 @@ namespace HeneGames.DialogueSystem
             {
                 messageText.text = _message;
             }
+
+            // Handle responses
+            if (_responses != null && _responses.Length > 0)
+            {
+                responseContainer.SetActive(true);
+
+                for (int i = 0; i < responseButtons.Length; i++)
+                {
+                    if (i < _responses.Length)
+                    {
+                        responseButtons[i].gameObject.SetActive(true);
+                        responseTexts[i].text = _responses[i].responseText;
+
+                        // Clear old listeners and assign new one
+                        int capturedIndex = i;
+                        responseButtons[i].onClick.RemoveAllListeners();
+                        responseButtons[i].onClick.AddListener(() =>
+                        {
+                            manager.OnResponseSelected(capturedIndex);
+                        });
+                        responseButtons[i].onClick.AddListener(() =>
+                        {
+                            Debug.Log("Button clicked: ");
+                            manager.OnResponseSelected(capturedIndex);
+                        });
+                    }
+                    else
+                    {
+                        responseButtons[i].gameObject.SetActive(false);
+                    }
+                }
+            }
+            else
+            {
+                responseContainer.SetActive(false);
+            }
+        }
+
+        public bool IsShowingResponses()
+        {
+            return responseContainer.activeSelf;
+        }
+
+        public void HideResponses()
+        {
+            responseContainer.SetActive(false);
         }
 
         public void ClearText()
         {
             dialogueWindow.SetActive(false);
+            responseContainer.SetActive(false);
         }
 
         public void ShowInteractionUI(bool _value)

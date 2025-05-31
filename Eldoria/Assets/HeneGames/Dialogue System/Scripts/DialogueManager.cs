@@ -60,6 +60,13 @@ namespace HeneGames.DialogueSystem
 
                 dialogueIsOn = true;
             }
+
+            if (DialogueUI.instance.IsShowingResponses())
+            {
+                if (Input.GetKeyDown(KeyCode.Alpha1)) OnResponseSelected(0);
+                else if (Input.GetKeyDown(KeyCode.Alpha2)) OnResponseSelected(1);
+                else if (Input.GetKeyDown(KeyCode.Alpha3)) OnResponseSelected(2);
+            }
         }
 
         //Start dialogue by trigger
@@ -303,10 +310,15 @@ namespace HeneGames.DialogueSystem
         {
             if (sentences[currentSentence].dialogueCharacter != null)
             {
-                //Show sentence on the screen
-                DialogueUI.instance.ShowSentence(sentences[currentSentence].dialogueCharacter, sentences[currentSentence].sentence);
+                // Show sentence on the screen with responses
+                DialogueUI.instance.ShowSentence(
+                    sentences[currentSentence].dialogueCharacter,
+                    sentences[currentSentence].sentence,
+                    this,
+                    sentences[currentSentence].responses.ToArray()
+                );
 
-                //Invoke sentence event
+                // Invoke sentence event
                 sentences[currentSentence].sentenceEvent.Invoke();
             }
             else
@@ -315,9 +327,15 @@ namespace HeneGames.DialogueSystem
                 _dialogueCharacter.characterName = "";
                 _dialogueCharacter.characterPhoto = null;
 
-                DialogueUI.instance.ShowSentence(_dialogueCharacter, sentences[currentSentence].sentence);
+                // Show sentence with empty character and responses
+                DialogueUI.instance.ShowSentence(
+                    _dialogueCharacter,
+                    sentences[currentSentence].sentence,
+                    this,
+                    sentences[currentSentence].responses.ToArray()
+                );
 
-                //Invoke sentence event
+                // Invoke sentence event
                 sentences[currentSentence].sentenceEvent.Invoke();
             }
         }
@@ -329,13 +347,26 @@ namespace HeneGames.DialogueSystem
 
             return sentences[currentSentence].sentence.Length;
         }
+
+        public void OnResponseSelected(int index)
+        {
+            Debug.Log("Selected response index: " + index);
+            int aux = StoryManager.instance.CheckSpecificStateResponse(npcID, index);
+
+            if (aux != 0) 
+            {
+                currentSentence = aux;
+            }
+            // After selecting, proceed to the next sentence
+            DialogueUI.instance.HideResponses();
+            NextSentence(out bool last);
+        }
     }
 
     [System.Serializable]
     public class NPC_Centence
     {
         [Header("------------------------------------------------------------")]
-
         public DialogueCharacter dialogueCharacter;
 
         [TextArea(3, 10)]
@@ -346,5 +377,16 @@ namespace HeneGames.DialogueSystem
         public AudioClip sentenceSound;
 
         public UnityEvent sentenceEvent;
+
+        [Header("Optional Responses (Max 3)")]
+        [SerializeField][Range(0, 3)] public int responseCount = 0;
+        public List<PlayerResponse> responses = new List<PlayerResponse>(3);
+    }
+
+    [System.Serializable]
+    public class PlayerResponse
+    {
+        [TextArea(1, 5)]
+        public string responseText;
     }
 }
