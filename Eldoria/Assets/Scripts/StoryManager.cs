@@ -5,6 +5,8 @@ public class StoryManager : MonoBehaviour
 {
     public static StoryManager instance;
 
+    public QuestManager questManager;
+
     // Dictionary to store dialogue progress for each NPC
     private Dictionary<string, int> npcDialogueStates = new Dictionary<string, int>();
 
@@ -19,6 +21,12 @@ public class StoryManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    void Start()
+    {
+        questManager.AddQuest("Find the Ancient Sword", QuestManager.QuestType.Main);
+        questManager.AddQuest("Collect 5 Herbs", QuestManager.QuestType.Side);
     }
 
     // Get the current dialogue index (0 = first dialogue, etc.)
