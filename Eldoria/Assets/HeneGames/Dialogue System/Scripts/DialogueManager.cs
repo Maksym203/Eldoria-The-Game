@@ -33,6 +33,11 @@ namespace HeneGames.DialogueSystem
         [SerializeField] private TriggerState triggerState;
         [SerializeField] private List<NPC_Centence> sentences = new List<NPC_Centence>();
 
+        private void Start()
+        {
+            Debug.Log("Sentences at runtime: " + sentences.Count);
+        }
+
         private void Update()
         {
             //Timer
@@ -61,12 +66,6 @@ namespace HeneGames.DialogueSystem
                 dialogueIsOn = true;
             }
 
-            if (DialogueUI.instance.IsShowingResponses())
-            {
-                if (Input.GetKeyDown(KeyCode.Alpha1)) OnResponseSelected(0);
-                else if (Input.GetKeyDown(KeyCode.Alpha2)) OnResponseSelected(1);
-                else if (Input.GetKeyDown(KeyCode.Alpha3)) OnResponseSelected(2);
-            }
         }
 
         //Start dialogue by trigger
@@ -207,7 +206,6 @@ namespace HeneGames.DialogueSystem
                 lastSentence = false;
                 return;
             }
-
             //Add one to sentence index
             currentSentence++;
 
@@ -230,6 +228,7 @@ namespace HeneGames.DialogueSystem
                     currentSentence--;
 
                     endDialogueEvent.Invoke();
+                    Debug.Log("Selected response aux: ERROR1");
 
                     return;
                 }
@@ -242,6 +241,7 @@ namespace HeneGames.DialogueSystem
                     lastSentence = true;
 
                     endDialogueEvent.Invoke();
+                    Debug.Log("Selected response aux: ERROR2");
 
                     return;
                 }
@@ -252,6 +252,7 @@ namespace HeneGames.DialogueSystem
                     lastSentence = true;
 
                     endDialogueEvent.Invoke();
+                    Debug.Log("Selected response aux: ERROR3: " + sentences.Count);
 
                     return;
                 }
@@ -352,14 +353,14 @@ namespace HeneGames.DialogueSystem
         {
             Debug.Log("Selected response index: " + index);
             int aux = StoryManager.instance.CheckSpecificStateResponse(npcID, index);
-
+            Debug.Log("Selected response aux: " + aux);
             if (aux != 0) 
             {
                 currentSentence = aux;
             }
             // After selecting, proceed to the next sentence
             DialogueUI.instance.HideResponses();
-            NextSentence(out bool last);
+            NextSentence(out bool lastSentence);
         }
     }
 

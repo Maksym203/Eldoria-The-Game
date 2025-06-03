@@ -68,13 +68,22 @@ namespace HeneGames.DialogueSystem
             InputUpdate();
         }
 
-        public virtual void InputUpdate()
+        public void InputUpdate()
         {
-            //Next dialogue input
-            //if (Input.GetKeyDown(actionInput))
-            //{
-            //    NextSentenceSoft();
-            //}
+            if (startDialogueDelayTimer > 0f)
+                return;
+
+            if (IsShowingResponses())
+            {
+                if (Input.GetKeyDown(KeyCode.Alpha1)) currentDialogueManager?.OnResponseSelected(0);
+                else if (Input.GetKeyDown(KeyCode.Alpha2)) currentDialogueManager?.OnResponseSelected(1);
+                else if (Input.GetKeyDown(KeyCode.Alpha3)) currentDialogueManager?.OnResponseSelected(2);
+            }
+
+            if (Input.GetKeyDown(actionInput))
+            {
+                NextSentenceSoft();
+            }
         }
 
         /// <summary>
@@ -87,7 +96,7 @@ namespace HeneGames.DialogueSystem
             {
                 if (!typing)
                 {
-                    NextSentenceHard();
+                    //NextSentenceHard();
                 }
                 else
                 {
