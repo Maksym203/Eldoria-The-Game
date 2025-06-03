@@ -2275,7 +2275,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2253168491831016169, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_Name
-      value: Wizard (1)
+      value: Linwen
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalScale.x
@@ -2291,19 +2291,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 78.45
+      value: 176.26
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.49
+      value: 3.71
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 72.29
+      value: 203.08
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.97570467
+      value: -0.059868068
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2311,7 +2311,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.21909015
+      value: -0.9982063
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalRotation.z
@@ -2323,7 +2323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -25.311
+      value: -186.864
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -2335,7 +2335,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[0].sentence
@@ -2344,21 +2344,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[1].sentence
-      value: "\xA1Por las hojas de Eldoria! \xBFUn gnomo por aqu\xED? \xA1Ay\xFAdame,
-        por favor! Estoy atrapado por estas ra\xEDces encantadas."
+      value: "Mi nombre es Linwen, soy un explorador del reino \xE9lfico. Estaba
+        buscando unas setas raras en esta zona cuando qued\xE9 atrapado por esta
+        maldici\xF3n. Estas ra\xEDces solo se abrir\xE1n con un toque del andador
+        m\xE1gico que llevas."
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[2].sentence
-      value: "\xA1Por las hojas de Eldoria! \xBFUn gnomo por aqu\xED? \xA1Ay\xFAdame,
-        por favor! Estoy atrapado por estas ra\xEDces encantadas."
+      value: "\xA1Gracias! Ahora que me has salvado, puedo devolverte el favor. Estoy
+        buscando unas setas doradas que solo crecen en una cueva cercana. Contienen
+        propiedades m\xE1gicas que necesito para una investigaci\xF3n."
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[3].sentence
-      value: "\xBFCrees que nos escuchar\xE1n?"
+      value: "Muy bien. D\xE9jame abrirte el camino."
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[4].sentence
-      value: "No ser\xE1 f\xE1cil, pero debes intentarlo. Lleva esto contigo\u2026"
+      value: "Dentro encontrar\xE1s las setas que necesito. Pero ten cuidado, los
+        trasgos han estado patrullando la zona. Si logras traerme al menos tres,
+        te mostrar\xE9 un atajo directo al reino \xE9lfico sin pasar por la entrada
+        principal."
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[5].sentence
@@ -2379,11 +2385,11 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[3].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: bbcfa161bffce9340a319afe20897d5c, type: 3}
+      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[4].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: bbcfa161bffce9340a319afe20897d5c, type: 3}
+      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[5].sentenceSound
       value: 
@@ -2407,11 +2413,11 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[3].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: 4752645aa0d4f144783c729ff9e40e5a, type: 2}
+      objectReference: {fileID: 11400000, guid: 0779ef71b4ee2b94791b1a73fb6de447, type: 2}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[4].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: 3e5e644d8d5725941b79d3277f39cbc1, type: 2}
+      objectReference: {fileID: 11400000, guid: 0779ef71b4ee2b94791b1a73fb6de447, type: 2}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[5].dialogueCharacter
       value: 
@@ -2420,6 +2426,102 @@ PrefabInstance:
       propertyPath: sentences.Array.data[6].dialogueCharacter
       value: 
       objectReference: {fileID: 11400000, guid: 3e5e644d8d5725941b79d3277f39cbc1, type: 2}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[0].responses.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[1].responses.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[2].responses.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[3].responses.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[4].responses.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[0].responses.Array.data[0].responseText
+      value: "Qui\xE9n eres?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[0].responses.Array.data[1].responseText
+      value: "Por qu\xE9?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[0].responses.Array.data[2].responseText
+      value: Voy.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[1].responses.Array.data[0].responseText
+      value: Bien
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[1].responses.Array.data[1].responseText
+      value: Que gano?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[1].responses.Array.data[2].responseText
+      value: No
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[2].responses.Array.data[0].responseText
+      value: Okay
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[2].responses.Array.data[1].responseText
+      value: Peligro?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[2].responses.Array.data[2].responseText
+      value: 'No quiero
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[3].responses.Array.data[0].responseText
+      value: Okay
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[3].responses.Array.data[1].responseText
+      value: Peligro?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[3].responses.Array.data[2].responseText
+      value: 'No quiero
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[4].responses.Array.data[0].responseText
+      value: Voy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[4].responses.Array.data[1].responseText
+      value: Mas?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[4].responses.Array.data[2].responseText
+      value: "No s\xE9"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[1].sentenceEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[1].sentenceEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[1].sentenceEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9603,7 +9705,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2253168491831016169, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_Name
-      value: Wizard (2)
+      value: Burko
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalScale.x
@@ -9619,19 +9721,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 169.94
+      value: 84.3
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.56
+      value: 16.23
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 203.55
+      value: 68.4
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.102438785
+      value: -0.9264334
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalRotation.x
@@ -9639,7 +9741,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.99473935
+      value: 0.3764587
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalRotation.z
@@ -9651,7 +9753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -168.241
+      value: -404.229
       objectReference: {fileID: 0}
     - target: {fileID: 2253168491831016173, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -9663,7 +9765,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.size
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[0].sentence
@@ -9673,27 +9775,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[1].sentence
-      value: "\xA1Por los hongos de las colinas! \xBFEres real o el cansancio me
-        est\xE1 haciendo alucinar? \xA1Un compa\xF1ero gnomo en este bosque peligroso!
-        \xA1Esto s\xED que es suerte!"
+      value: "Soy Burko, comerciante de todo lo que un viajero podr\xEDa desear.
+        Pero ahora mismo tengo un problemilla... Se me volc\xF3 el carro y perd\xED
+        parte de mi mercanc\xEDa. Unas cajas rodaron cuesta abajo y, para colmo,
+        una cay\xF3 en un claro donde rondan unos trasgos desagradables."
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[2].sentence
-      value: "\xA1Por los hongos de las colinas! \xBFEres real o el cansancio me
-        est\xE1 haciendo alucinar? \xA1Un compa\xF1ero gnomo en este bosque peligroso!
-        \xA1Esto s\xED que es suerte!"
+      value: "\xA1Sab\xEDa que ten\xEDa buen ojo para las almas caritativas! Mira,
+        hay tres cajas desperdigadas. Dos est\xE1n cerca, pero la tercera rod\xF3
+        hasta el claro donde esos trasgos acampan. Si logras recuperarlas todas,
+        te dar\xE9 algo especial."
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[3].sentence
-      value: "No ser\xE1 f\xE1cil, pero debes intentarlo. Lleva esto contigo\u2026"
+      value: Gracias por traerme las cajas de vuelta, Estoy muy agradecido... Me
+        quieres decir algo?
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[4].sentence
-      value: "\xA1Gracias, Hest! Esto ser\xE1 de gran ayuda."
+      value: Gracias por traerme las cajas de vuelta, Estoy muy agradecido.
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[5].sentence
-      value: "\xBFA\xFAn sigues aqu\xED?"
+      value: "\xA1Por las setas m\xE1gicas! \xA1Es una idea brillante! Los guardias
+        nunca cuestionan a los comerciantes con ayudantes registrados. Est\xE1 bien,
+        Rumpo, s\xEDgueme y mant\xE9n la boca cerrada. D\xE9jame hacer el habla con
+        los guardias."
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[6].sentence
@@ -9714,15 +9822,15 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[3].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: bbcfa161bffce9340a319afe20897d5c, type: 3}
+      objectReference: {fileID: 8300000, guid: 5267d1e4c33fd394fa6a214c344f15c4, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[4].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: bbcfa161bffce9340a319afe20897d5c, type: 3}
+      objectReference: {fileID: 8300000, guid: 5267d1e4c33fd394fa6a214c344f15c4, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[5].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: bbcfa161bffce9340a319afe20897d5c, type: 3}
+      objectReference: {fileID: 8300000, guid: 5267d1e4c33fd394fa6a214c344f15c4, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[6].sentenceSound
       value: 
@@ -9742,19 +9850,115 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[3].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: 3e5e644d8d5725941b79d3277f39cbc1, type: 2}
+      objectReference: {fileID: 11400000, guid: 0779ef71b4ee2b94791b1a73fb6de447, type: 2}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[4].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: 4752645aa0d4f144783c729ff9e40e5a, type: 2}
+      objectReference: {fileID: 11400000, guid: 0779ef71b4ee2b94791b1a73fb6de447, type: 2}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[5].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: 3e5e644d8d5725941b79d3277f39cbc1, type: 2}
+      objectReference: {fileID: 11400000, guid: 0779ef71b4ee2b94791b1a73fb6de447, type: 2}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[6].dialogueCharacter
       value: 
       objectReference: {fileID: 11400000, guid: 3e5e644d8d5725941b79d3277f39cbc1, type: 2}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[0].responses.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[1].responses.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[2].responses.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[3].responses.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[4].responses.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[5].responses.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[0].responses.Array.data[0].responseText
+      value: Que ha Pasado?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[0].responses.Array.data[1].responseText
+      value: "Qui\xE9n eres?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[0].responses.Array.data[2].responseText
+      value: No tengo tiempo.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[1].responses.Array.data[0].responseText
+      value: Te ayudo.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[1].responses.Array.data[1].responseText
+      value: "Qu\xE9 Gano?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[1].responses.Array.data[2].responseText
+      value: Tu problema.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[2].responses.Array.data[0].responseText
+      value: Bien.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[2].responses.Array.data[1].responseText
+      value: No quiero.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[2].responses.Array.data[2].responseText
+      value: Cajas?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[3].responses.Array.data[0].responseText
+      value: Mencionar libro.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[3].responses.Array.data[1].responseText
+      value: No, nada.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[3].responses.Array.data[2].responseText
+      value: No, nada.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[4].responses.Array.data[0].responseText
+      value: Bien.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[4].responses.Array.data[1].responseText
+      value: No quiero.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[4].responses.Array.data[2].responseText
+      value: Cajas?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[5].responses.Array.data[0].responseText
+      value: Bien.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[5].responses.Array.data[1].responseText
+      value: No quiero.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[5].responses.Array.data[2].responseText
+      value: Cajas?
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
