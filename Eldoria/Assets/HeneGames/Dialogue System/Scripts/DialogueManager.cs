@@ -200,6 +200,7 @@ namespace HeneGames.DialogueSystem
 
         public void NextSentence(out bool lastSentence)
         {
+            Debug.Log("SENTECNE: " + StoryManager.instance.GetDialogueState(npcID));
             //The next sentence cannot be changed immediately after starting
             if (coolDownTimer > 0f)
             {
@@ -245,6 +246,20 @@ namespace HeneGames.DialogueSystem
 
                     return;
                 }
+                else if (aux == 3)
+                {
+                    StopDialogue();
+
+                    lastSentence = true;
+
+                    currentSentence=0;
+                    StoryManager.instance.SetDialogueState(npcID, 0);
+
+                    endDialogueEvent.Invoke();
+                    Debug.Log("Selected response aux: ERROR3");
+
+                    return;
+                }
                 else if (currentSentence > sentences.Count - 1)
                 {
                     StopDialogue();
@@ -252,7 +267,7 @@ namespace HeneGames.DialogueSystem
                     lastSentence = true;
 
                     endDialogueEvent.Invoke();
-                    Debug.Log("Selected response aux: ERROR3: " + sentences.Count);
+                    Debug.Log("Selected response aux: ERROR4: " + sentences.Count);
 
                     return;
                 }

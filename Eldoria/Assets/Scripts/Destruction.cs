@@ -1,15 +1,25 @@
 using UnityEngine;
 
-public class SelfDestructOnSpecificCollision : MonoBehaviour
+public class SelfDestructOnProximity : MonoBehaviour
 {
     [SerializeField] private GameObject targetObject;
+    [SerializeField] private float proximityDistance = 5f;
 
-    private void OnCollisionEnter(Collision collision)
+    private bool hasTriggered = false;
+
+    void Update()
     {
-        if (collision.gameObject == targetObject && StoryManager.instance.DialogueStateEquals("Hest", "Hest", 1))
+        if (hasTriggered || targetObject == null)
+            return;
+
+        float distance = Vector3.Distance(transform.position, targetObject.transform.position);
+
+        if (distance <= proximityDistance)
         {
-            StoryManager.instance.AdvanceDialogueState("Hest");
             Destroy(gameObject);
+            hasTriggered = true;
+            StoryManager.instance.Mushrooms++;
+            StoryManager.instance.CheckMushrooms();
         }
     }
 }
