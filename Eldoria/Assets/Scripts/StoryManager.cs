@@ -8,10 +8,19 @@ public class StoryManager : MonoBehaviour
     public QuestManager questManager;
 
     private bool LinwenLost = false;
+    private bool BurkoReset = false;
 
     public GameObject wallToRemove;
 
     public int Mushrooms = 0;
+
+    public int Boxes = 0;
+
+    private bool questStartAux = false;
+
+    private bool libro = false;
+
+    public bool BurkoDone = false;
 
     // Dictionary to store dialogue progress for each NPC
     private Dictionary<string, int> npcDialogueStates = new Dictionary<string, int>();
@@ -31,8 +40,7 @@ public class StoryManager : MonoBehaviour
 
     void Start()
     {
-        questManager.AddQuest("Find the Ancient Sword", QuestManager.QuestType.Main);
-        questManager.AddQuest("Collect 5 Herbs", QuestManager.QuestType.Side);
+        questManager.AddQuest("Habla con Hest", QuestManager.QuestType.Main);
     }
 
     // Get the current dialogue index (0 = first dialogue, etc.)
@@ -77,21 +85,40 @@ public class StoryManager : MonoBehaviour
 
     public void CheckMushrooms()
     {
-        if (Mushrooms == 3) AdvanceDialogueState("Linwen");
+        if (Mushrooms == 3) { AdvanceDialogueState("Linwen"); questManager.CompleteQuest("Busca las setas"); questManager.AddQuest("Habla con Linwen", QuestManager.QuestType.Side); }
+    }
+
+    public void CheckBoxes()
+    {
+        if (Boxes == 3) { AdvanceDialogueState("Burko"); questManager.CompleteQuest("Encuentra las cajas"); questManager.AddQuest("Habla con Burko", QuestManager.QuestType.Side); }
+    }
+
+    private void StartQuests()
+    {
+        if (!questStartAux)
+        {
+            questManager.AddQuest("Llega a Lirathil", QuestManager.QuestType.Main);
+            questManager.AddQuest("Inspecciona la zona", QuestManager.QuestType.Side);
+            questManager.CompleteQuest("Habla con Hest");
+            questStartAux = true;
+        }
     }
 
     public int CheckSpecificState(string npcID)
     {
-        if (npcID == "Hest" && GetDialogueState(npcID) == 1) return 1;
+        if (npcID == "Hest" && GetDialogueState(npcID) == 1) { StartQuests(); return 1; }
         else if (npcID == "Hest" && GetDialogueState(npcID) == 5) return 2;
-        else if (npcID == "Interaction1" && GetDialogueState(npcID) == 3 && GetDialogueState("Hest") == 1) { AdvanceDialogueState("Hest"); return 0; }
+        else if (npcID == "Interaction1" && GetDialogueState(npcID) == 3 && GetDialogueState("Hest") == 1) { AdvanceDialogueState("Hest"); questManager.CompleteQuest("Inspecciona la zona"); libro = true; return 0; }
         else if (npcID == "Linwen" && GetDialogueState(npcID) == 3) return 3;
         else if (npcID == "Linwen" && GetDialogueState(npcID) == 9 && LinwenLost) return 1;
         else if (npcID == "Linwen" && GetDialogueState(npcID) == 15 && LinwenLost) return 1;
         else if (npcID == "Linwen" && GetDialogueState(npcID) == 16) { wallToRemove.transform.position = new Vector3(-5000, -5000, 0); return 0; }
         else if (npcID == "Linwen" && GetDialogueState(npcID) == 17) return 1;
-        else if (npcID == "Linwen" && GetDialogueState(npcID) == 18) return 1;
-        else if (npcID == "Linwen" && GetDialogueState(npcID) == 20) return 2;
+        else if (npcID == "Linwen" && GetDialogueState(npcID) == 19) { questManager.CompleteQuest("Habla con Linwen"); return 2; }
+        else if (npcID == "Burko" && GetDialogueState(npcID) == 3) return 3;
+        else if (npcID == "Burko" && GetDialogueState(npcID) == 9 && BurkoReset) return 3;
+        else if (npcID == "Burko" && GetDialogueState(npcID) == 11) return 1;
+        else if (npcID == "Burko" && GetDialogueState(npcID) == 12 && libro) { questManager.CompleteQuest("Habla con Burko"); BurkoDone = true; return 0; }
         else return 0;
     }
 
@@ -107,11 +134,22 @@ public class StoryManager : MonoBehaviour
         if (npcID == "Linwen" && GetDialogueState(npcID) == 5 && index == 2) { SetDialogueState("Linwen", 8); LinwenLost = true; return 7; }
         if (npcID == "Linwen" && GetDialogueState(npcID) == 6 && index == 0) { SetDialogueState("Linwen",9); return 9; }
         if (npcID == "Linwen" && GetDialogueState(npcID) == 8 && index == 0) { SetDialogueState("Linwen", 9); return 9; }
-        if (npcID == "Linwen" && GetDialogueState(npcID) == 10 && index == 0) { SetDialogueState("Linwen", 11); return 10; }
-        if (npcID == "Linwen" && GetDialogueState(npcID) == 10 && index == 1) { SetDialogueState("Linwen", 12); return 11; }
+        if (npcID == "Linwen" && GetDialogueState(npcID) == 10 && index == 0) { SetDialogueState("Linwen", 11); questManager.AddQuest("Busca las setas", QuestManager.QuestType.Side); return 10; }
+        if (npcID == "Linwen" && GetDialogueState(npcID) == 10 && index == 1) { SetDialogueState("Linwen", 12); questManager.AddQuest("Busca las setas", QuestManager.QuestType.Side); return 11; }
         if (npcID == "Linwen" && GetDialogueState(npcID) == 10 && index == 2) { SetDialogueState("Linwen", 14); LinwenLost = true; return 13; }
         if (npcID == "Linwen" && GetDialogueState(npcID) == 12 && index == 0) { SetDialogueState("Linwen", 15); return 14; }
         if (npcID == "Linwen" && GetDialogueState(npcID) == 14 && index == 0) { SetDialogueState("Linwen", 15); return 14; }
+
+        if (npcID == "Burko" && GetDialogueState(npcID) == 0 && index == 0) { BurkoReset = false;  return 0; }
+        if (npcID == "Burko" && GetDialogueState(npcID) == 0 && index == 1) { SetDialogueState("Burko", 1); BurkoReset = false; return 1; }
+        if (npcID == "Burko" && GetDialogueState(npcID) == 0 && index == 2) { SetDialogueState("Burko", 2); BurkoReset = false; return 2; }
+        if (npcID == "Burko" && GetDialogueState(npcID) == 1 && index == 0) { SetDialogueState("Burko", 4); return 3; }
+        if (npcID == "Burko" && GetDialogueState(npcID) == 2 && index == 0) { SetDialogueState("Burko", 4); return 3; }
+        if (npcID == "Burko" && GetDialogueState(npcID) == 5 && index == 0) { SetDialogueState("Burko", 5); return 4; }
+        if (npcID == "Burko" && GetDialogueState(npcID) == 5 && index == 1) { SetDialogueState("Burko", 6); return 5; }
+        if (npcID == "Burko" && GetDialogueState(npcID) == 5 && index == 2) { SetDialogueState("Burko", 8); BurkoReset = true; return 7; }
+        if (npcID == "Burko" && GetDialogueState(npcID) == 6 && index == 0) { SetDialogueState("Burko", 9); questManager.AddQuest("Encuentra las cajas", QuestManager.QuestType.Side); return 8; }
+        if (npcID == "Burko" && GetDialogueState(npcID) == 8 && index == 0) { SetDialogueState("Burko", 9); questManager.AddQuest("Encuentra las cajas", QuestManager.QuestType.Side); return 8; }
 
         else return 0;
     }

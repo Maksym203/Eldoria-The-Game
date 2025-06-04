@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SelfDestructOnProximity : MonoBehaviour
+public class SelfDestructOnProximityBoxes : MonoBehaviour
 {
     [SerializeField] private GameObject targetObject;
     [SerializeField] private float proximityDistance = 5f;
@@ -18,9 +18,9 @@ public class SelfDestructOnProximity : MonoBehaviour
         {
             Destroy(gameObject);
             hasTriggered = true;
-            StoryManager.instance.Mushrooms++;
-            Debug.Log("COLLISION: " + StoryManager.instance.Mushrooms);
-            StoryManager.instance.CheckMushrooms();
+            StoryManager.instance.Boxes++;
+            Debug.Log("COLLISION: " + StoryManager.instance.Boxes);
+            StoryManager.instance.CheckBoxes();
         }
     }
 }
