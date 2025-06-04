@@ -2662,13 +2662,25 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[0].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: c003d30b8b68bdf449983b5b648d9140, type: 3}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[1].responseCount
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[1].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: aca4b47fc42e1b24fb06436046ca86aa, type: 3}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[2].responseCount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[2].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f56041e2c47c168489e4dbcf3626fdea, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[3].responseCount
       value: 1
@@ -2676,7 +2688,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[3].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: bbcfa161bffce9340a319afe20897d5c, type: 3}
+      objectReference: {fileID: 8300000, guid: c003d30b8b68bdf449983b5b648d9140, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[4].responseCount
       value: 1
@@ -2684,7 +2696,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[4].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: bbcfa161bffce9340a319afe20897d5c, type: 3}
+      objectReference: {fileID: 8300000, guid: aca4b47fc42e1b24fb06436046ca86aa, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[5].responseCount
       value: 1
@@ -2692,7 +2704,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[5].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: bbcfa161bffce9340a319afe20897d5c, type: 3}
+      objectReference: {fileID: 8300000, guid: f56041e2c47c168489e4dbcf3626fdea, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[6].responseCount
       value: 1
@@ -2700,7 +2712,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[6].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: bbcfa161bffce9340a319afe20897d5c, type: 3}
+      objectReference: {fileID: 8300000, guid: c003d30b8b68bdf449983b5b648d9140, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[0].dialogueCharacter
       value: 
@@ -2961,13 +2973,17 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
+      propertyPath: sentences.Array.data[0].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f14937efb2286b04f98c8f1f463a1089, type: 3}
+    - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[1].responseCount
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[1].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: c003d30b8b68bdf449983b5b648d9140, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[2].responseCount
       value: 1
@@ -2975,7 +2991,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[2].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: aca4b47fc42e1b24fb06436046ca86aa, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[3].responseCount
       value: 1
@@ -2983,7 +2999,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[3].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: f56041e2c47c168489e4dbcf3626fdea, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[4].responseCount
       value: 3
@@ -2991,7 +3007,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[4].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: 6f74d1e20bcd9434fad9fa9fd78f178c, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[5].responseCount
       value: 1
@@ -2999,7 +3015,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[5].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: c003d30b8b68bdf449983b5b648d9140, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[6].responseCount
       value: 1
@@ -3007,7 +3023,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[6].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: aca4b47fc42e1b24fb06436046ca86aa, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[7].responseCount
       value: 1
@@ -3015,7 +3031,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[7].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: 2de86d7e20c07da4ea7bffe8f927c153, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[8].responseCount
       value: 1
@@ -3023,7 +3039,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[8].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: f56041e2c47c168489e4dbcf3626fdea, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[9].responseCount
       value: 1
@@ -3031,7 +3047,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[9].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: f14937efb2286b04f98c8f1f463a1089, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[10].responseCount
       value: 3
@@ -3039,7 +3055,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[10].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: 6f74d1e20bcd9434fad9fa9fd78f178c, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[11].responseCount
       value: 1
@@ -3047,7 +3063,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[11].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: c003d30b8b68bdf449983b5b648d9140, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[12].responseCount
       value: 1
@@ -3055,7 +3071,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[12].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: aca4b47fc42e1b24fb06436046ca86aa, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[13].responseCount
       value: 1
@@ -3063,7 +3079,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[13].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: 2de86d7e20c07da4ea7bffe8f927c153, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[14].responseCount
       value: 1
@@ -3071,7 +3087,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[14].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: f56041e2c47c168489e4dbcf3626fdea, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[15].responseCount
       value: 1
@@ -3079,7 +3095,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[15].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: f14937efb2286b04f98c8f1f463a1089, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[16].responseCount
       value: 0
@@ -3087,7 +3103,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[16].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: 6f74d1e20bcd9434fad9fa9fd78f178c, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[17].responseCount
       value: 1
@@ -3095,7 +3111,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[17].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: 2de86d7e20c07da4ea7bffe8f927c153, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[18].responseCount
       value: 1
@@ -3103,7 +3119,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[18].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: c003d30b8b68bdf449983b5b648d9140, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[19].responseCount
       value: 1
@@ -3111,7 +3127,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[19].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: f14937efb2286b04f98c8f1f463a1089, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[0].dialogueCharacter
       value: 
@@ -3274,11 +3290,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[0].responses.Array.data[0].responseText
-      value: "Qui\xE9n eres?"
+      value: "\xBFQui\xE9n?"
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[0].responses.Array.data[1].responseText
-      value: "Por qu\xE9?"
+      value: "\xBFPor qu\xE9?"
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[0].responses.Array.data[2].responseText
@@ -3326,7 +3342,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[4].responses.Array.data[1].responseText
-      value: Que gano?
+      value: "\xBFPorqu\xE9?"
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[4].responses.Array.data[2].responseText
@@ -3408,11 +3424,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[10].responses.Array.data[1].responseText
-      value: Peligro?
+      value: "\xBFPeligro?"
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[10].responses.Array.data[2].responseText
-      value: 'No quiero
+      value: 'No
 
 '
       objectReference: {fileID: 0}
@@ -9466,7 +9482,7 @@ PrefabInstance:
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[0].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 32974a213b725e44cb870cc72968492d, type: 3}
+      objectReference: {fileID: 8300000, guid: c003d30b8b68bdf449983b5b648d9140, type: 3}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[1].responseCount
       value: 1
@@ -9474,7 +9490,7 @@ PrefabInstance:
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[1].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 5267d1e4c33fd394fa6a214c344f15c4, type: 3}
+      objectReference: {fileID: 8300000, guid: aca4b47fc42e1b24fb06436046ca86aa, type: 3}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[2].responseCount
       value: 1
@@ -9482,7 +9498,7 @@ PrefabInstance:
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[2].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: bbcfa161bffce9340a319afe20897d5c, type: 3}
+      objectReference: {fileID: 8300000, guid: f56041e2c47c168489e4dbcf3626fdea, type: 3}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[3].responseCount
       value: 1
@@ -9490,7 +9506,7 @@ PrefabInstance:
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[3].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: bbcfa161bffce9340a319afe20897d5c, type: 3}
+      objectReference: {fileID: 8300000, guid: c003d30b8b68bdf449983b5b648d9140, type: 3}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[4].sentenceSound
       value: 
@@ -10960,6 +10976,7 @@ MonoBehaviour:
   wallToRemove: {fileID: 360331295}
   Mushrooms: 0
   Boxes: 0
+  BurkoDone: 0
 --- !u!4 &1515583862
 Transform:
   m_ObjectHideFlags: 0
@@ -12230,7 +12247,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[0].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 5267d1e4c33fd394fa6a214c344f15c4, type: 3}
+      objectReference: {fileID: 8300000, guid: c4163e023a13a074598f16d9fa7a2188, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[1].responseCount
       value: 1
@@ -12238,7 +12255,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[1].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 5267d1e4c33fd394fa6a214c344f15c4, type: 3}
+      objectReference: {fileID: 8300000, guid: c003d30b8b68bdf449983b5b648d9140, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[2].responseCount
       value: 1
@@ -12246,7 +12263,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[2].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 5267d1e4c33fd394fa6a214c344f15c4, type: 3}
+      objectReference: {fileID: 8300000, guid: aca4b47fc42e1b24fb06436046ca86aa, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[3].responseCount
       value: 1
@@ -12254,7 +12271,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[3].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 5267d1e4c33fd394fa6a214c344f15c4, type: 3}
+      objectReference: {fileID: 8300000, guid: f56041e2c47c168489e4dbcf3626fdea, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[4].responseCount
       value: 3
@@ -12262,7 +12279,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[4].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 5267d1e4c33fd394fa6a214c344f15c4, type: 3}
+      objectReference: {fileID: 8300000, guid: ce37c04fd9fbabd48aafc2466af0909c, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[5].responseCount
       value: 1
@@ -12270,7 +12287,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[5].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 5267d1e4c33fd394fa6a214c344f15c4, type: 3}
+      objectReference: {fileID: 8300000, guid: c003d30b8b68bdf449983b5b648d9140, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[6].responseCount
       value: 1
@@ -12278,7 +12295,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[6].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 5267d1e4c33fd394fa6a214c344f15c4, type: 3}
+      objectReference: {fileID: 8300000, guid: aca4b47fc42e1b24fb06436046ca86aa, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[7].responseCount
       value: 1
@@ -12286,7 +12303,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[7].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 5267d1e4c33fd394fa6a214c344f15c4, type: 3}
+      objectReference: {fileID: 8300000, guid: 79729219672ce224db66ee0da5a9d1f4, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[8].responseCount
       value: 1
@@ -12294,7 +12311,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[8].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 5267d1e4c33fd394fa6a214c344f15c4, type: 3}
+      objectReference: {fileID: 8300000, guid: f56041e2c47c168489e4dbcf3626fdea, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[9].responseCount
       value: 3
@@ -12302,7 +12319,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[9].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 5267d1e4c33fd394fa6a214c344f15c4, type: 3}
+      objectReference: {fileID: 8300000, guid: c4163e023a13a074598f16d9fa7a2188, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[10].responseCount
       value: 1
@@ -12310,7 +12327,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[10].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 5267d1e4c33fd394fa6a214c344f15c4, type: 3}
+      objectReference: {fileID: 8300000, guid: aca4b47fc42e1b24fb06436046ca86aa, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[11].responseCount
       value: 1
@@ -12318,7 +12335,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[11].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 5267d1e4c33fd394fa6a214c344f15c4, type: 3}
+      objectReference: {fileID: 8300000, guid: 79729219672ce224db66ee0da5a9d1f4, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[12].responseCount
       value: 0
@@ -12326,7 +12343,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[12].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 5267d1e4c33fd394fa6a214c344f15c4, type: 3}
+      objectReference: {fileID: 8300000, guid: c4163e023a13a074598f16d9fa7a2188, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[13].responseCount
       value: 1
@@ -12334,7 +12351,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[13].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 5267d1e4c33fd394fa6a214c344f15c4, type: 3}
+      objectReference: {fileID: 8300000, guid: f56041e2c47c168489e4dbcf3626fdea, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[14].responseCount
       value: 1
@@ -12342,7 +12359,7 @@ PrefabInstance:
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[14].sentenceSound
       value: 
-      objectReference: {fileID: 8300000, guid: 5267d1e4c33fd394fa6a214c344f15c4, type: 3}
+      objectReference: {fileID: 8300000, guid: c4163e023a13a074598f16d9fa7a2188, type: 3}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[0].dialogueCharacter
       value: 
@@ -12465,15 +12482,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[0].responses.Array.data[0].responseText
-      value: Que ha Pasado?
+      value: "\xBFQue?"
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[0].responses.Array.data[1].responseText
-      value: "Qui\xE9n eres?"
+      value: "\xBFQui\xE9n?"
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[0].responses.Array.data[2].responseText
-      value: No tengo tiempo.
+      value: No
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[1].responses.Array.data[0].responseText
@@ -12513,15 +12530,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[4].responses.Array.data[0].responseText
-      value: Te ayudo.
+      value: Ayudar
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[4].responses.Array.data[1].responseText
-      value: "Qu\xE9 Gano?"
+      value: "\xBFPorque?"
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[4].responses.Array.data[2].responseText
-      value: Tu problema.
+      value: No
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[5].responses.Array.data[0].responseText
@@ -12573,7 +12590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[9].responses.Array.data[0].responseText
-      value: Bien.
+      value: Bien
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[9].responses.Array.data[1].responseText
@@ -12601,7 +12618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[12].responses.Array.data[0].responseText
-      value: Mencionar libro.
+      value: Libro
       objectReference: {fileID: 0}
     - target: {fileID: 7603848103017532228, guid: 8e9f9ec3ddd244846ad2994a83fb38f8, type: 3}
       propertyPath: sentences.Array.data[12].responses.Array.data[1].responseText
